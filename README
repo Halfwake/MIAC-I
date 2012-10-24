@@ -1,0 +1,14 @@
+30 (PL)
+	Take the number from the address given and place it in the A register.
+24 (MUL)
+	Multiply the number in the A register by the number at the given address and place the product in the B register.
+20 (SUB)
+	Subtract the number at the address given from the contents of the B register.
+37 (DIV)
+	Divide the number in the B register buy the number at the address given, and place the answer in the A register.
+43 (ROA)
+	Read out register A.
+49 (ROB)
+	Read out register B.
+19 (ADD)
+	Add the number at the address given to the contents of the B register.
